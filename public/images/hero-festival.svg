@@ -1,0 +1,39 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Festival background with stage and crowd -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stageGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45b7d1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1200" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Stage with lights -->
+  <rect x="200" y="300" width="800" height="200" fill="url(#stageGradient)" opacity="0.8"/>
+  
+  <!-- Stage lights -->
+  <circle cx="300" cy="250" r="30" fill="#ffff00" opacity="0.9"/>
+  <circle cx="500" cy="200" r="25" fill="#ff00ff" opacity="0.8"/>
+  <circle cx="700" cy="180" r="35" fill="#00ffff" opacity="0.7"/>
+  <circle cx="900" cy="220" r="28" fill="#ff6600" opacity="0.8"/>
+  
+  <!-- Fireworks -->
+  <circle cx="150" cy="100" r="3" fill="#ffff00"/>
+  <circle cx="180" cy="80" r="2" fill="#ff6600"/>
+  <circle cx="200" cy="90" r="2" fill="#ff00ff"/>
+  <circle cx="1000" cy="120" r="3" fill="#00ffff"/>
+  <circle cx="1050" cy="100" r="2" fill="#ffff00"/>
+  
+  <!-- Crowd silhouette -->
+  <rect x="0" y="450" width="1200" height="150" fill="#2c3e50" opacity="0.7"/>
+  
+  <!-- Text overlay area (transparent for text) -->
+  <rect x="400" y="200" width="400" height="100" fill="transparent"/>
+</svg>
